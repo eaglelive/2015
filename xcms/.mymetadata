@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="xcms"
+  id="myeclipse.1435564863527"
+  context-root="/xcms"
+  j2ee-spec="5.0"
+  archive="xcms.war">
+  <attributes>
+    <attribute name="webrootdir" value="xcms" />
+  </attributes>
+</project-module>
+
