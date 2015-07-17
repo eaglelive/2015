@@ -1,4 +1,4 @@
-package test.java.com.mongodb;
+package com.mongodb;
 
 import static java.util.Arrays.asList;
 

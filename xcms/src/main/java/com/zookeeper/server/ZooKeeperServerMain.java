@@ -1,4 +1,4 @@
-package main.java.com.zookeeper.server;
+package com.zookeeper.server;
 
 import java.io.IOException;
 

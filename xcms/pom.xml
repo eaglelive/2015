@@ -137,11 +137,11 @@
     </dependency>
   </dependencies>
   <build>
-    <sourceDirectory>${basedir}/src</sourceDirectory>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
     <outputDirectory>${basedir}/xcms/WEB-INF/classes</outputDirectory>
     <resources>
       <resource>
-        <directory>${basedir}/src</directory>
+        <directory>${basedir}/src/main/resources</directory>
         <excludes>
           <exclude>**/*.java</exclude>
         </excludes>

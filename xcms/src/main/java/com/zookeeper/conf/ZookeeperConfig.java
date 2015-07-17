@@ -1,4 +1,4 @@
-package main.java.com.zookeeper.conf;
+package com.zookeeper.conf;
 
 import static org.apache.zookeeper.client.FourLetterWordMain.send4LetterWord;
 

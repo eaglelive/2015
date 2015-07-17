@@ -1,4 +1,4 @@
-package test.java.com.maven;
+package com.maven;
 
 import org.junit.Test;
 

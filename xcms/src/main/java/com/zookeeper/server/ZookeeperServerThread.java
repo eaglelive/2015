@@ -1,8 +1,8 @@
-package main.java.com.zookeeper.server;
+package com.zookeeper.server;
 
 import java.io.IOException;
 
-import main.java.com.zookeeper.conf.ZookeeperConfig;
+import com.zookeeper.conf.ZookeeperConfig;
 
 import org.apache.zookeeper.server.quorum.QuorumPeerConfig.ConfigException;
 import org.slf4j.Logger;

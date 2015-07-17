@@ -1,4 +1,4 @@
-package test.java.com.zookeeper;
+package com.zookeeper;
 
 /**
  * A simple class that monitors the data and existence of a ZooKeeper

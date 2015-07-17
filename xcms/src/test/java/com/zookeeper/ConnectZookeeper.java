@@ -1,7 +1,7 @@
-package test.java.com.zookeeper;
+package com.zookeeper;
 
-import main.java.com.zookeeper.conf.ZookeeperConfig;
-import main.java.com.zookeeper.server.ZookeeperServerThread;
+import com.zookeeper.conf.ZookeeperConfig;
+import com.zookeeper.server.ZookeeperServerThread;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.WatchedEvent;

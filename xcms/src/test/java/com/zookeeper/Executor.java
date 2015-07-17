@@ -1,4 +1,4 @@
-package test.java.com.zookeeper;
+package com.zookeeper;
 
 /**
  * A simple example program to use DataMonitor to start and
