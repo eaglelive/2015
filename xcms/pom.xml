@@ -135,6 +135,12 @@
         <artifactId>spring-context</artifactId>
         <version>4.1.7.RELEASE</version>
     </dependency>
+    <dependency>
+    	<groupId>local</groupId>
+    	<artifactId>xcms</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    	<type>war</type>
+    </dependency>
   </dependencies>
   <build>
     <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
