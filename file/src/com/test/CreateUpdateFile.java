@@ -8,24 +8,18 @@ import java.io.IOException;
 public class CreateUpdateFile {
 	
 	static String fromFilePath = "D:/Oracle/Middleware/user_projects/domains/exp_domain/autodeploy/bgt/";
-	static String toFilePath = "E:/TJHQ/Release/预算系统/2015-10-13/update_v3/war/";
+	//static String toFilePath = "E:/TJHQ/Release/预算系统/2015-10-29/update_v1/war/";
+	static String toFilePath = "C:/Users/CL/Desktop/BGT/war/";
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String [] updateFiles = {"WEB-INF/classes/com/tjhq/exp/datainput/dao/IDataAuditMapper.class",
-				"WEB-INF/classes/com/tjhq/exp/datainput/dao/maps/DataAuditMapper.xml",
-				"WEB-INF/classes/com/tjhq/exp/datainput/service/impl/DataAuditService.class",
-				"WEB-INF/classes/com/tjhq/commons/setting/external/service/impl/AuditRuleOutService.class",
-				"WEB-INF/classes/com/tjhq/exp/zhsh_oa/web/TableUtil.class",
-				"WEB-INF/classes/com/tjhq/exp/zhsh_oa/web/OAAuditController.class",
-				"WEB-INF/classes/com/tjhq/exp/zhsh_oa/service/IOAAuditService.class",
-				"WEB-INF/classes/com/tjhq/exp/zhsh_oa/service/impl/OAAuditService.class",
-				"WEB-INF/classes/com/tjhq/exp/zhsh_oa/dao/OAAuditMapper.class",
-				"WEB-INF/classes/com/tjhq/exp/zhsh_oa/dao/maps/OAAuditMapper.xml",
-				"WEB-INF/classes/com/tjhq/exp/quotamanage/formulaset/web/TableInfo.class",
-				"WEB-INF/classes/com/tjhq/exp/quotamanage/formulaset/web/FormulasetNewController.class"};
+		String [] updateFiles = {"WEB-INF/classes/com/tjhq/commons/inputcomponent/grid/fixgrid/service/impl/FixGridService.class",
+				"static/pub2.0/js/grid/adapter/Hq.grid.adapter.FiexedGridAdapter.js",
+				"static/pub2.0/js/grid/adapter/Hq.grid.adapter.FiexedGridAdapter.gzjs",
+				"static/app/commons/setting/input/entryTable.js",
+				"static/app/commons/setting/input/entryTable.gzjs"};
 		try {
 			createFile(updateFiles);
 			System.out.println("生成成功！");

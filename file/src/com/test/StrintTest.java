@@ -31,9 +31,17 @@ public class StrintTest {
 //		Integer [] a = {1,2,3};
 //		List<Integer> list = Arrays.asList(a);
 //		System.out.println(list.size());
-		String tableCode = "bgt_t_ysjzsjb_indi";
-		tableCode = tableCode.toUpperCase().replace("_INDI", "");
-		System.out.println(tableCode);
+//		String tableCode = "bgt_t_ysjzsjb_indi";
+//		tableCode = tableCode.toUpperCase().replace("_INDI", "");
+//		System.out.println(tableCode);
+		System.out.println("--\u52A0\u8F7D\u7F13\u5B58\u7528\u65F6:");
+		String str = "加载缓存用时";
+		for (int i = 0; i < str.length(); i++) {
+			char c = str.charAt(i);
+			System.out.print("\\u"+Integer.toHexString(c));
+		}
+		System.out.println("");
+		System.out.println("\u52a0\u8f7d\u7f13\u5b58\u7528\u65f6");
 	}
 	
 	public enum DataType {
