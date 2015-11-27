@@ -63,13 +63,13 @@ public class DataSourceUpdate {
 		String basePath = "D:/Oracle/Middleware/user_projects/domains/";
 		try {
 			String fileUrl = "portal_domain/config/jdbc/portalDataSource-6671-jdbc.xml";
-			updateDataSource(basePath + fileUrl, "jdbc:oracle:thin:@192.168.5.33:1521:orcl", "FASP_62", "FASP_62");
+			updateDataSource(basePath + fileUrl, "jdbc:oracle:thin:@192.168.5.33:1521:orcl", "FASP_1500", "FASP_1500");
 			
 			fileUrl = "exp_domain/config/jdbc/portalDataSource-6671-jdbc.xml";
-			updateDataSource(basePath + fileUrl, "jdbc:oracle:thin:@192.168.5.33:1521:orcl", "EFMIS_62", "EFMIS_62");
+			updateDataSource(basePath + fileUrl, "jdbc:oracle:thin:@192.168.5.33:1521:orcl", "EFMIS_1500", "EFMIS_1500");
 			
 			fileUrl = "hqoa_domain/config/jdbc/hqoa_ds-jdbc.xml";
-			updateDataSource(basePath + fileUrl, "jdbc:oracle:thin:@192.168.5.33:1521:orcl", "OA_0720", "OA_0720");
+			updateDataSource(basePath + fileUrl, "jdbc:oracle:thin:@192.168.5.33:1521:orcl", "OA_1500", "OA_1500");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

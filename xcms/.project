@@ -53,6 +53,12 @@
 	</buildSpec>
 	<natures>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+>>>>>>> c72d0e40d1654479d678cc73837f94572af030c0
 =======
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>

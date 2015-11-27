@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class CreateUpdateFile {
 	
-	static String fromFilePath = "D:/Oracle/Middleware/user_projects/domains/exp_domain/autodeploy/bgt/";
+	static String fromFilePath = "D:/Oracle/Middleware/user_projects/domains/busi_domain/autodeploy/bgt/";
 	//static String toFilePath = "E:/TJHQ/Release/预算系统/2015-10-29/update_v1/war/";
 	static String toFilePath = "C:/Users/CL/Desktop/BGT/war/";
 
@@ -15,12 +15,13 @@ public class CreateUpdateFile {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String [] updateFiles = {"WEB-INF/classes/com/tjhq/commons/inputcomponent/grid/fixgrid/service/impl/FixGridService.class",
-				"static/pub2.0/js/grid/adapter/Hq.grid.adapter.FiexedGridAdapter.js",
-				"static/pub2.0/js/grid/adapter/Hq.grid.adapter.FiexedGridAdapter.gzjs",
-				"static/app/commons/setting/input/entryTable.js",
-				"static/app/commons/setting/input/entryTable.gzjs"};
+		String [] updateFiles = {"static/app/exp/bgtexpend/js/controller/ExpTableDetailController.gzjs",
+		        "static/app/exp/bgtexpend/js/controller/ExpTableDetailController.js",
+		        "WEB-INF/classes/com/tjhq/exp/bgtexpend/web/ExpTableDetailInputController.class",
+		        "WEB-INF/classes/com/tjhq/exp/bgtexpend/service/impl/ExpTableDetailInputService.class"};
 		try {
+			System.err.println("Source Path : " + fromFilePath);
+			System.err.println("Target Path : " + toFilePath);
 			createFile(updateFiles);
 			System.out.println("生成成功！");
 		} catch (IOException e) {
